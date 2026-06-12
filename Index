@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JK Catálogo</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f8f4f4;
+}
+
+header{
+    text-align:center;
+    background:white;
+    padding:30px 20px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+    margin-bottom:20px;
+}
+
+.logo-img{
+    width:180px;
+    max-width:90%;
+    margin-bottom:15px;
+}
+
+header h1{
+    color:#c58b7c;
+    margin-bottom:10px;
+}
+
+header p{
+    color:#666;
+}
+
+.grid{
+    display:flex;
+    flex-direction:column;
+    max-width:700px;
+    margin:auto;
+    gap:25px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 3px 12px rgba(0,0,0,.12);
+}
+
+.card img{
+    width:100%;
+    display:block;
+}
+
+.info{
+    padding:15px;
+}
+
+.nombre{
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+
+.precio{
+    font-size:26px;
+    font-weight:bold;
+    color:#c58b7c;
+}
+
+.detalle{
+    margin-top:5px;
+    color:#666;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="JK Catálogo" class="logo-img">
+    <h1>JK Catálogo</h1>
+    <p>Novedades y tendencias para ti ✨</p>
+</header>
+
+<div class="grid">
+
+<div class="card">
+<img src="Audifonos-capibara-Alambricos.jpeg">
+<div class="info">
+<div class="nombre">Audífonos Capibara Alámbricos</div>
+<div class="precio">$50</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Auriculares-inalambricos-tipo-airpods.jpeg">
+<div class="info">
+<div class="nombre">Auriculares Inalámbricos tipo AirPods</div>
+<div class="precio">$200</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Soporte-para-celular-capibara.jpeg">
+<div class="info">
+<div class="nombre">Soporte para Celular Capibara</div>
+<div class="precio">$30</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Mariconera-grenobil.jpeg">
+<div class="info">
+<div class="nombre">Mariconera Grenobil</div>
+<div class="precio">$150</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Mochila-grenobil.jpeg">
+<div class="info">
+<div class="nombre">Mochila Grenobil</div>
+<div class="precio">$180</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Cartera-Love.jpeg">
+<div class="info">
+<div class="nombre">Cartera Love</div>
+<div class="precio">$50</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Cartera-Michael-Kors.jpeg">
+<div class="info">
+<div class="nombre">Cartera Michael Kors</div>
+<div class="precio">$90</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Mariconera-caballero.jpeg">
+<div class="info">
+<div class="nombre">Mariconera Caballero</div>
+<div class="precio">$200</div>
+</div>
+</div>
+
+<!--div class="card">
+<img src="Lapices-con-estuche.jpeg">
+<div class="info">
+<div class="nombre">Lápices con Estuche</div>
+<div class="precio">$40</div>
+<div class="detalle">24 piezas</div>
+</div>
+</div> -->
+
+<!-- <div class="card">
+<img src="Mochila-snoopy-futbolista.jpeg">
+<div class="info">
+<div class="nombre">Mochila Snoopy Futbolista</div>
+<div class="precio">$250</div>
+</div>
+</div> -->
+
+<div class="card">
+<img src="Sandalias-caballero.jpeg">
+<div class="info">
+<div class="nombre">Sandalias Caballero</div>
+<div class="precio">$200</div>
+<div class="detalle">Tallas 43 y 44</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Vaso-infantil-con-luces.jpeg">
+<div class="info">
+<div class="nombre">Vaso Infantil con Luces</div>
+<div class="precio">$110</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Termo-duo-termo-chico-digital.jpeg">
+<div class="info">
+<div class="nombre">Termo Duo + Termo Chico Digital</div>
+<div class="precio">$350</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Lonchera-termica.jpeg">
+<div class="info">
+<div class="nombre">Lonchera Térmica</div>
+<div class="precio">$35</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Bolsa-grande-Grenobil.jpeg">
+<div class="info">
+<div class="nombre">Bolsa Grande Grenobil</div>
+<div class="precio">$210</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Cartera-de-gatito.jpeg">
+<div class="info">
+<div class="nombre">Cartera de Gatito con Correa</div>
+<div class="precio">$35</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Cachuchas.jpeg">
+<div class="info">
+<div class="nombre">Cachuchas</div>
+<div class="precio">$90</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Cartera-caballero-cucci.jpeg">
+<div class="info">
+<div class="nombre">Cartera Caballero Cucci</div>
+<div class="precio">$170</div>
+<div class="detalle">Incluye caja y funda</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Bolsa-coach-calidad-G5.jpeg">
+<div class="info">
+<div class="nombre">Bolsa Coach Calidad G5</div>
+<div class="precio">$500</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Bolsa-de-mano-Grenobil-con-correa.jpeg">
+<div class="info">
+<div class="nombre">Bolsa de Mano Grenobil con Correa</div>
+<div class="precio">$200</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Bolsita-coach-con-correa.jpeg">
+<div class="info">
+<div class="nombre">Bolsita Coach con Correa Colores: Blanca, Cafe y Negra</div>
+<div class="precio">$100</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Cangurera.jpeg">
+<div class="info">
+<div class="nombre">Congurera Colores: Roja Y Negra</div>
+<div class="precio">$80</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Mochila-grande.jpeg">
+<div class="info">
+<div class="nombre">Mochila Grande con tres bolsas chicas</div>
+<div class="precio">$300</div>
+</div>
+</div>
+    
+<div class="card">
+<img src="Set-de.mochila-para-kinder-o-primaria.jpeg">
+<div class="info">
+<div class="nombre">Set de mochila para kinder o primaria tiene rueditas, lonchera termica</div>
+<div class="precio">$300</div>
+</div>
+</div>
+
+<div class="card">
+<img src="Set-de.mochila-con-luces.jpeg">
+<div class="info">
+<div class="nombre">Set de mochila para primaria tiene luces</div>
+<div class="precio">$300</div>
+</div>
+</div>
+
+<div class="card">
+<img src="bolsa-de-mano.jpeg">
+<div class="info">
+<div class="nombre">Bolsa de mano Steve Madden</div>
+<div class="precio">$200</div>
+</div>
+</div>
+
+<div class="card">
+<img src="locion-victoria-secret.jpeg">
+<div class="info">
+<div class="nombre">Perfume Victoria Secret</div>
+<div class="precio">$120</div>
+</div>
+</div>
+
+<div class="card">
+<img src="cartera-tous.jpeg">
+<div class="info">
+<div class="nombre">Cartera Tous</div>
+<div class="precio">$50</div>
+</div>
+</div>
+
+<div class="card">
+<img src="mariconera-hombre-nike.jpeg">
+<div class="info">
+<div class="nombre">Mariconera hombre Nike</div>
+<div class="precio">$200</div>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
